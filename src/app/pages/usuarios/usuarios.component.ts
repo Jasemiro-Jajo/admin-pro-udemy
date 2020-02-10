@@ -92,6 +92,8 @@ export class UsuariosComponent implements OnInit {
     })
     .then( borrar => {
 
+
+
       console.log(borrar);
 
       if ( borrar ) {
